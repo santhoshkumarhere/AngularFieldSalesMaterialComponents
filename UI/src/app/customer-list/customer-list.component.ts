@@ -24,7 +24,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
     selector: 'customer-list',
     templateUrl: './customer-list.component.html',
-    styleUrls: ['./customer-list.css']
+    styleUrls: ['./customer-list.scss']
 })
 
 export class CustomerListComponent {
