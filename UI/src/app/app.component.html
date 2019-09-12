@@ -1,0 +1,19 @@
+<h1>{{name}}</h1>
+<hr>
+<a routerLink="/">Home</a> | <a routerLink="/menu">Menu</a>
+<hr>
+
+<mat-toolbar>
+    <mat-toolbar-row>
+        <a  mat-button  routerLink="/"  routerLinkActive="active">Home</a>
+
+        <a  mat-button  routerLink="/menu">Menu</a>
+
+        <a  mat-button  routerLink ="/login">Login</a>
+        
+        <a mat-button routerLink="/customer-list">Customer List</a>
+    </mat-toolbar-row>
+
+</mat-toolbar>
+<main></main>
+<router-outlet></router-outlet>
